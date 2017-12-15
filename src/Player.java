@@ -14,7 +14,7 @@ public class Player {
 	public void addCard(int slot, int card) {
 		this.deck[slot] = card;
 	}
-	
+
 	public void addPoint() {
 		this.points++;
 	}
@@ -22,7 +22,7 @@ public class Player {
 	public int getPoints() {
 		return points;
 	}
-	
+
 	public int getCard(int slot) {
 		return this.deck[slot];
 	}
